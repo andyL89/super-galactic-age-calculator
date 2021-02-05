@@ -4,6 +4,6 @@ export default class PlanetCalculator {
   }
 
   getMercuryAge() {
-    
+    return this.age * .24;
   }
 }
