@@ -15,7 +15,7 @@ export default class LifeExpectancy {
 
   mercuryExpectancy() {
     if (Math.round((this.age / .24) > (this.expectancy / .24))) {
-      return `Average life expectancy for your demographic on ${this.planet}: ${Math.round(this.expectancy / .24)}. Your age in ${this.planet} years: ${Math.round(this.age / .24)}. Years lived beyond average life expectancy: ${Math.round((this.age - this.expectancy) / .24)}`;
+      return `Average life expectancy for your demographic on ${this.planet}: ${Math.round(this.expectancy / .24)}. Your age in ${this.planet} years: ${Math.round(this.age / .24)}. Years lived beyond average life expectancy: ${Math.round((this.age - this.expectancy) / .24)}.`;
     } else {
       return `Average life expectancy for your demographic on ${this.planet}: ${Math.round(this.expectancy / .24)}. Your age in ${this.planet} years: ${Math.round(this.age / .24)}. ${this.planet} years left to live: ${Math.round((this.expectancy - this.age) / .24)}`;
     }
