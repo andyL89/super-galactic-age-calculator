@@ -1,7 +1,7 @@
 import { TestScheduler } from "jest";
 import PlanetCalculator from "../src/js/calculator.js";
 
-describe("Calculator", () => {
+describe("PlanetCalculator", () => {
   test("Should return a planet calculator with age created.", () => {
     const newPlanet = new PlanetCalculator(50);
     expect(newPlanet.age).toEqual(50);

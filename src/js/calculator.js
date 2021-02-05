@@ -8,6 +8,6 @@ export default class PlanetCalculator {
   }
 
   getVenusAge() {
-    // return Math.round(this.age / .62);
+    return Math.round(this.age / .62);
   }
 }
