@@ -39,7 +39,7 @@ export default class LifeExpectancy {
 
   jupiterExpectancy() {
     if (Math.round((this.age / 11.86) > (this.expectancy / 11.86))) {
-      return `Average life expectancy for your demographic on ${this.planet}: ${Math.round(this.expectancy / 11.86)}. Your age in ${this.planet} years: ${Math.round(this.age / 11.86)}. Years lived beyond average life expectancy: ${Math.round((this.age - this.expectancy) / 11.86)}.`;
+      return `Average life expectancy for your demographic on ${this.planet}: ${Math.round(this.expectancy / 11.86)}. Your age in ${this.planet} years: ${Math.round(this.age / 11.86)}. Years lived beyond average life expectancy: ${Math.round((this.age - this.expectancy) / 11.86)}`;
     } else {
       return `Average life expectancy for your demographic on ${this.planet}: ${Math.round(this.expectancy / 11.86)}. Your age in ${this.planet} years: ${Math.round(this.age / 11.86)}. ${this.planet} years left to live: ${Math.round((this.expectancy - this.age) / 11.86)}`;
     }
