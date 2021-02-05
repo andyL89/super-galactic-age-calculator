@@ -6,11 +6,15 @@ export default class LifeExpectancy {
   }
 
   earthExpectancy () {
-    return `Average life expectancy for your demographic on Earth: ${this.expectancy}. Your age in ${this.planet} years: ${this.age}. ${this.planet} years left to live: ${Math.round(this.expectancy - this.age)}`;
+    return `Average life expectancy for your demographic on ${this.planet}: ${this.expectancy}. Your age in ${this.planet} years: ${this.age}. ${this.planet} years left to live: ${Math.round(this.expectancy - this.age)}`;
   }
 
   mercuryExpectancy () {
-    return `Average life expectancy for your demographic on Mercury: ${Math.round(this.expectancy / .24)}. Your age in ${this.planet} years: ${Math.round(this.age / .24)}. ${this.planet} years left to live: ${Math.round((this.expectancy - this.age) / .24)}`;
+    return `Average life expectancy for your demographic on ${this.planet}: ${Math.round(this.expectancy / .24)}. Your age in ${this.planet} years: ${Math.round(this.age / .24)}. ${this.planet} years left to live: ${Math.round((this.expectancy - this.age) / .24)}`;
+  }
+
+  venusExpectancy () {
+    // return `Average life expectancy for your demographic on ${this.planet}: ${Math.round(this.expectancy / .62)}. Your age in ${this.planet} years: ${Math.round(this.age / .62)}. ${this.planet} years left to live: ${Math.round((this.expectancy - this.age) / .62)}`;
   }
 
 }
