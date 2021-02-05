@@ -33,9 +33,14 @@ describe("LifeExpectancy", () => {
     expect(newLifeExpectancy.jupiterExpectancy()).toEqual("Average life expectancy for your demographic on Jupiter: 6. Your age in Jupiter years: 4. Jupiter years left to live: 2");
   });
 
-  test("Should return how many years they have lived beyond average life expectancy.", () => {
+  test("Should return average Earth life expectancy, user's age in Earth years, and how many years they have lived beyond average life expectancy.", () => {
     const newLifeExpectancy = new LifeExpectancy("Earth", 75, 73);
     expect(newLifeExpectancy.earthExpectancy()).toEqual("Average life expectancy for your demographic on Earth: 73. Your age in Earth years: 75. Years lived beyond average life expectancy: 2.");
+  });
+
+  test("Should return average Mercury life expectancy, user's age in Mercury years, and how many years they have lived beyond average life expectancy.", () => {
+    const newLifeExpectancy = new LifeExpectancy("Mercury", 75, 73);
+    expect(newLifeExpectancy.mercuryExpectancy()).toEqual("Average life expectancy for your demographic on Mercury: 304. Your age in Mercury years: 313. Years lived beyond average life expectancy: 8.");
   });
 
 });
