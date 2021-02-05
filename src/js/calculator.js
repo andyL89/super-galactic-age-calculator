@@ -21,6 +21,6 @@ export default class PlanetCalculator {
   }
 
   jupiterAge() {
-    // return `Age in ${this.planet} years = ${Math.round(this.age / 11.86)}`;
+    return `Age in ${this.planet} years = ${Math.round(this.age / 11.86)}`;
   }
 }
