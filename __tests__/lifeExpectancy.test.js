@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import LifeExpectancy from "../src/js/lifeExpectancy.js";
 
 describe("LifeExpectancy", () => {

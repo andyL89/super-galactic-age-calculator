@@ -1,4 +1,4 @@
-import { TestScheduler } from "jest";
+/* eslint-disable no-undef */
 import PlanetAgeCalculator from "../src/js/calculator.js";
 
 describe("PlanetAgeCalculator", () => {

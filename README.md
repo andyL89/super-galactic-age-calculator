@@ -6,13 +6,13 @@
 
 
 ## *Tests*
-#### Test 1:
+ [Tests](__tests__/calculator.test.js)
 
 
 ## *Setup Instructions:*
 
-1. Copy https://github.com/andyL89/template-repo.
-2. Run `$ git clone https://github.com/andyL89/template-repo` in the terminal to add directory to your computer.
+1. Copy https://github.com/andyL89/super-galactic-age-calculator.
+2. Run `$ git clone https://github.com/andyL89/super-galactic-age-calculator` in the terminal to add directory to your computer.
 3. Navigate to the top level of the directory.
 4. Install packages locally by running `$ npm install` in the terminal.
 5. Create production environment by running `$ npm run build` in the terminal.
