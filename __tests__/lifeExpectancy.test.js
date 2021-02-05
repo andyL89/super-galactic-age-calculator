@@ -28,4 +28,9 @@ describe("LifeExpectancy", () => {
     expect(newLifeExpectancy.marsExpectancy()).toEqual("Average life expectancy for your demographic on Mars: 39. Your age in Mars years: 27. Mars years left to live: 12");
   });
 
+  test("Should return average Jupiter life expectancy, user's age in Jupiter years, and how many Jupiter years they have left to live.", () => {
+    const newLifeExpectancy = new LifeExpectancy("Jupiter", 50, 73);
+    expect(newLifeExpectancy.jupiterExpectancy()).toEqual("Average life expectancy for your demographic on Jupiter: 6. Your age in Jupiter years: 4. Jupiter years left to live: 2");
+  });
+
 });
