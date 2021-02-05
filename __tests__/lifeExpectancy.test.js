@@ -35,12 +35,17 @@ describe("LifeExpectancy", () => {
 
   test("Should return average Earth life expectancy, user's age in Earth years, and how many years they have lived beyond average life expectancy.", () => {
     const newLifeExpectancy = new LifeExpectancy("Earth", 75, 73);
-    expect(newLifeExpectancy.earthExpectancy()).toEqual("Average life expectancy for your demographic on Earth: 73. Your age in Earth years: 75. Years lived beyond average life expectancy: 2.");
+    expect(newLifeExpectancy.earthExpectancy()).toEqual("Average life expectancy for your demographic on Earth: 73. Your age in Earth years: 75. Years lived beyond average life expectancy: 2");
   });
 
   test("Should return average Mercury life expectancy, user's age in Mercury years, and how many years they have lived beyond average life expectancy.", () => {
     const newLifeExpectancy = new LifeExpectancy("Mercury", 75, 73);
-    expect(newLifeExpectancy.mercuryExpectancy()).toEqual("Average life expectancy for your demographic on Mercury: 304. Your age in Mercury years: 313. Years lived beyond average life expectancy: 8.");
+    expect(newLifeExpectancy.mercuryExpectancy()).toEqual("Average life expectancy for your demographic on Mercury: 304. Your age in Mercury years: 313. Years lived beyond average life expectancy: 8");
+  });
+
+  test("Should return average Venus life expectancy, user's age in Venus years, and how many years they have lived beyond average life expectancy.", () => {
+    const newLifeExpectancy = new LifeExpectancy("Venus", 75, 73);
+    expect(newLifeExpectancy.venusExpectancy()).toEqual("Average life expectancy for your demographic on Venus: 118. Your age in Venus years: 121. Years lived beyond average life expectancy: 3");
   });
 
 });
