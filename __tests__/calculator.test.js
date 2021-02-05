@@ -9,7 +9,12 @@ describe("Calculator", () => {
 
   test("Should return a planet calculator with Mercury age created.", () => {
     const newPlanet = new PlanetCalculator(50);
-    expect(newPlanet.getMercuryAge()).toEqual(12);
+    expect(newPlanet.getMercuryAge()).toEqual(208);
+  });
+
+  test("Should return a planet calculator with Venus age created.", () => {
+    const newPlanet = new PlanetCalculator(50);
+    expect(newPlanet.getVenusAge()).toEqual(81);
   });
 
 });

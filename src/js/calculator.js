@@ -4,6 +4,10 @@ export default class PlanetCalculator {
   }
 
   getMercuryAge() {
-    return this.age * .24;
+    return Math.round(this.age / .24);
+  }
+
+  getVenusAge() {
+    // return Math.round(this.age / .62);
   }
 }
