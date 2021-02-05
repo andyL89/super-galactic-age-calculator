@@ -1,5 +1,5 @@
-export class Calculator {
-  constructor (days) {
-
+export default class Calculator {
+  constructor (planet) {
+    
   }
 }
