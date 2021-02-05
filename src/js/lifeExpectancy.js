@@ -17,4 +17,8 @@ export default class LifeExpectancy {
     return `Average life expectancy for your demographic on ${this.planet}: ${Math.round(this.expectancy / .62)}. Your age in ${this.planet} years: ${Math.round(this.age / .62)}. ${this.planet} years left to live: ${Math.round((this.expectancy - this.age) / .62)}`;
   }
 
+  marsExpectancy () {
+    // return `Average life expectancy for your demographic on ${this.planet}: ${Math.round(this.expectancy / 1.88)}. Your age in ${this.planet} years: ${Math.round(this.age / 1.88)}. ${this.planet} years left to live: ${Math.round((this.expectancy - this.age) / 1.88)}`;
+  }
+
 }
