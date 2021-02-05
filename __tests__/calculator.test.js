@@ -1,15 +1,15 @@
 import { TestScheduler } from "jest";
-import Calculator from "../src/js/calculator.js";
+import PlanetCalculator from "../src/js/calculator.js";
 
 describe("Calculator", () => {
-  test("Should return a calculator with age created.", () => {
-    const newCalculator = new Calculator("age");
-    expect(newCalculator.age).toEqual("age");
+  test("Should return a planet calculator with age created.", () => {
+    const newPlanet = new PlanetCalculator(50);
+    expect(newPlanet.age).toEqual(50);
   });
 
-  test("Should return a calculator with Earth age created.", () => {
-    const getEarthAge = new Calculator(50);
-    expect(getEarthAge.age).toEqual(50);
+  test("Should return a planet calculator with Mercury age created.", () => {
+    const newPlanet = new PlanetCalculator(50);
+    expect(newPlanet.getMercuryAge()).toEqual(12);
   });
 
 });
