@@ -7,7 +7,7 @@ export default class LifeExpectancy {
 
   earthExpectancy() {
     if (this.age > this.expectancy) {
-      return `Average life expectancy for your demographic on ${this.planet}: ${this.expectancy}. Your age in ${this.planet} years: ${this.age}. Years lived beyond average life expectancy: ${Math.round(this.age - this.expectancy)}`;
+      return `Average life expectancy for your demographic on ${this.planet}: ${this.expectancy}. Your age in ${this.planet} years: ${this.age}. Years lived beyond average life expectancy: ${Math.round(this.age - this.expectancy)}.`;
     } else {
       return `Average life expectancy for your demographic on ${this.planet}: ${this.expectancy}. Your age in ${this.planet} years: ${this.age}. ${this.planet} years left to live: ${Math.round(this.expectancy - this.age)}`;
     }
