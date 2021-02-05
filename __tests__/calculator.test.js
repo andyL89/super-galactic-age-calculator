@@ -28,4 +28,9 @@ describe("PlanetCalculator", () => {
     expect(newPlanet.marsAge()).toEqual("Age in Mars years = 27");
   });
 
+  test("Should return a planet calculator with Jupiter age created.", () => {
+    const newPlanet = new PlanetCalculator("Jupiter", 50);
+    expect(newPlanet.jupiterAge()).toEqual("Age in Jupiter years = 4");
+  });
+
 });

@@ -19,4 +19,8 @@ export default class PlanetCalculator {
   marsAge() {
     return `Age in ${this.planet} years = ${Math.round(this.age / 1.88)}`;
   }
+
+  jupiterAge() {
+    // return `Age in ${this.planet} years = ${Math.round(this.age / 11.86)}`;
+  }
 }
