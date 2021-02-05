@@ -1,5 +1,9 @@
 export default class Calculator {
-  constructor (planet) {
-    this.planet = planet;
+  constructor (age) {
+    this.age = age;
   }
+
+  // getEarthAge() {
+  //   return this.age;
+  // }
 }
