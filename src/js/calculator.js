@@ -8,11 +8,15 @@ export default class PlanetCalculator {
     return `Age in ${this.planet} years = ${this.age}`;
   }
 
-  // mercuryAge() {
-  //   return this.planet, Math.round(this.age / .24);
-  // }
+  mercuryAge() {
+    return `Age in ${this.planet} years = ${Math.round(this.age / .24)}`;
+  }
 
-  // venusAge() {
-  //   return `Age in ${this.planet} years = ${Math.round(this.age / .62)}`;
-  // }
+  venusAge() {
+    return `Age in ${this.planet} years = ${Math.round(this.age / .62)}`;
+  }
+
+  marsAge() {
+    // return `Age in ${this.planet} years = ${Math.round(this.age / 1.88)}`;
+  }
 }

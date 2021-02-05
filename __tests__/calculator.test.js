@@ -13,19 +13,19 @@ describe("PlanetCalculator", () => {
     expect(newPlanet.earthAge()).toEqual("Age in Earth years = 50");
   });
 
-  // test("Should return a planet calculator with Mercury and age created.", () => {
-  //   const newPlanet = new PlanetCalculator("Mercury", 50);
-  //   expect(newPlanet.mercuryAge()).toEqual("Mercury", 208);
-  // });
+  test("Should return a planet calculator with Mercury and age created.", () => {
+    const newPlanet = new PlanetCalculator("Mercury", 50);
+    expect(newPlanet.mercuryAge()).toEqual("Age in Mercury years = 208");
+  });
 
-  // test("Should return a planet calculator with Venus age created.", () => {
-  //   const newPlanet = new PlanetCalculator(50);
-  //   expect(newPlanet.getVenusAge()).toEqual(81);
-  // });
+  test("Should return a planet calculator with Venus age created.", () => {
+    const newPlanet = new PlanetCalculator("Venus", 50);
+    expect(newPlanet.venusAge()).toEqual("Age in Venus years = 81");
+  });
 
-  // test("Should return a planet calculator with Mars age created.", () => {
-  //   const newPlanet = new PlanetCalculator(50);
-  //   expect(newPlanet.getVenusAge()).toEqual(81);
-  // });
+  test("Should return a planet calculator with Mars age created.", () => {
+    const newPlanet = new PlanetCalculator("Mars", 50);
+    expect(newPlanet.marsAge()).toEqual("Age in Mars years = 27");
+  });
 
 });
