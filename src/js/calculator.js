@@ -1,13 +1,18 @@
 export default class PlanetCalculator {
-  constructor (age) {
+  constructor (planet, age) {
+    this.planet = planet;
     this.age = age;
   }
 
-  getMercuryAge() {
-    return Math.round(this.age / .24);
+  earthAge() {
+    return `Age in ${this.planet} years = ${this.age}`;
   }
 
-  getVenusAge() {
-    return Math.round(this.age / .62);
-  }
+  // mercuryAge() {
+  //   return this.planet, Math.round(this.age / .24);
+  // }
+
+  // venusAge() {
+  //   return `Age in ${this.planet} years = ${Math.round(this.age / .62)}`;
+  // }
 }
