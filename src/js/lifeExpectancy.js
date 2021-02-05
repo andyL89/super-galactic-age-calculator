@@ -23,7 +23,7 @@ export default class LifeExpectancy {
 
   venusExpectancy() {
     if (Math.round((this.age / .62) > (this.expectancy / .62))) {
-      return `Average life expectancy for your demographic on ${this.planet}: ${Math.round(this.expectancy / .62)}. Your age in ${this.planet} years: ${Math.round(this.age / .62)}. Years lived beyond average life expectancy: ${Math.round((this.age - this.expectancy) / .62)}.`;
+      return `Average life expectancy for your demographic on ${this.planet}: ${Math.round(this.expectancy / .62)}. Your age in ${this.planet} years: ${Math.round(this.age / .62)}. Years lived beyond average life expectancy: ${Math.round((this.age - this.expectancy) / .62)}`;
     } else {
       return `Average life expectancy for your demographic on ${this.planet}: ${Math.round(this.expectancy / .62)}. Your age in ${this.planet} years: ${Math.round(this.age / .62)}. ${this.planet} years left to live: ${Math.round((this.expectancy - this.age) / .62)}`;
     }
