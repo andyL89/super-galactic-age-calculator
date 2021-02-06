@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "super-galactic-age-calculator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "collectCoverage": true
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrew Lawson",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",

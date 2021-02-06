@@ -1,13 +1,14 @@
-## Template
-#### Template
+## Super Galactic Age Calculator
+#### Epicodus Week 5: Test Driven Development and Environments with JavaScript
 ***By Andrew Lawson © 2021***
 
 ## *Description:*
 
+A project that converts a user's age in Earth years to their age in the years of other planets. This project is meant to demonstrate our understanding of JavaScript classes and TDD (Test Driven Development). TDD incorporates a software called Jest which is used to test each spec of JavaScript business logic from the ground up. This ensures that our code will be as bug-free as possible.
 
 ## *Tests*
- [Tests](__tests__/calculator.test.js)
 
+ [Tests](__tests__/lifeExpectancy.test.js)
 
 ## *Setup Instructions:*
 
@@ -38,12 +39,11 @@
 
 ## *Known Bugs:*
 
-
-
+1. HTML has yet to be linked to scripts pages, i.e., there is no viewable webpage at the moment.
 
 ## *License*
 
-[MIT](LICENSE.txt)
+[ISC](LICENSE.txt)
 
 ## Contact Information
 
