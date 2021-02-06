@@ -39,7 +39,7 @@ A project that converts a user's age in Earth years to their age in the years of
 
 ## *Known Bugs:*
 
-1. HTML has yet to be linked to scripts pages, i.e., there is no viewable webpage at the moment.
+1. Viewable webpage doesn't work as expected yet.
 
 ## *License*
 
