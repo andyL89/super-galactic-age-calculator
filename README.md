@@ -9,6 +9,7 @@ A project that converts a user's age in Earth years to their age in the years of
 ## *Tests*
 
  [Tests](__tests__/lifeExpectancy.test.js)
+ [Tests](__tests__/calculator.test.js)
 
 ## *Setup Instructions:*
 
