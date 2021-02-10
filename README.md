@@ -17,8 +17,9 @@ A project that converts a user's age in Earth years to their age in the years of
 2. Run `$ git clone https://github.com/andyL89/super-galactic-age-calculator` in the terminal to add directory to your computer.
 3. Navigate to the top level of the directory.
 4. Install packages locally by running `$ npm install` in the terminal.
-5. Create production environment by running `$ npm run build` in the terminal.
-5. View project in browser by running `$ npm run start`.
+5. Test to see if JS logic is correct by running `$ npm run test` in the terminal.
+6. Create production environment by running `$ npm run build` in the terminal.
+7. View project in browser by running `$ npm run start`.
 
 ## *Tecnologies Used:*
 * @babel/core 7.6.4
